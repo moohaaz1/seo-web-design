@@ -1,0 +1,395 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+header {
+  background: url(./imgs/bg-cover.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 130vh;
+}
+nav img {
+  width: 100px;
+}
+nav {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 13px;
+}
+ul {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  list-style: none;
+}
+.head1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 140px;
+  margin-left: 100px;
+  /*flex-wrap: wrap;*/
+}
+.headtxt {
+  color: white;
+  font-size: 40px;
+}
+.headtxt h4 {
+  color: rgb(35, 84, 198);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.hedimg img {
+  width: 780px;
+}
+.headtxt p {
+  font-size: 15px;
+}
+.headtxt h1 {
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+.btn button {
+  padding: 15px;
+  border-radius: 50px;
+  border: 0;
+  width: 200px;
+}
+.btn .btn1 {
+  background-color: rgb(0, 120, 141);
+}
+.btn {
+  margin-top: 20px;
+}
+main {
+  color: white;
+}
+.maintxt {
+  text-align: center;
+  margin-top: 40px;
+}
+.maintxt h2 {
+  color: rgb(35, 84, 198);
+  font-size: 40px;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+.box1 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(4, 142, 254);
+  padding: 20px;
+  width: 200px;
+  font-size: 17px;
+  border-radius: 10px;
+}
+section {
+  background: url(imgs/cover1.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50vh;
+}
+.contxt {
+  text-align: center;
+  padding: 70px;
+  font-size: 30px;
+}
+.cont2 img {
+  width: 400px;
+}
+.cont1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+.cont2 {
+  background-color: white;
+  box-shadow: 0 0 5px 2px rgb(214, 214, 214);
+  height: 470px;
+}
+.cont1 {
+  padding-bottom: 120px;
+}
+.cont2 h5 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.cont2 {
+  line-height: 24px;
+}
+/*-------------packages--*/
+aside {
+  background: url(imgs/cover3.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 50vh;
+}
+.Packages {
+  background: url(imgs/bg-cover.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 75vh;
+  text-align: center;
+  padding-top: 70px;
+  line-height: 40px;
+  color: white;
+}
+.packagebox1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.packageboxtxt {
+  line-height: 50px;
+  color: black;
+  height: 400px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.packageboxtxt2 {
+  line-height: 50px;
+  color: black;
+  height: 400px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.packagebtn button {
+  padding: 15px;
+  width: 200px;
+  border-radius: 50px;
+  font-weight: 600;
+}
+.packagetxt {
+  font-size: 22px;
+}
+.contact {
+  margin-top: 190px;
+  color: black;
+}
+.contact1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 200px;
+  padding-bottom: 50px;
+}
+.contaxt3 input {
+  padding: 14px;
+  border-radius: 10px;
+  width: 270px;
+  margin-top: 14px;
+}
+.contaxt3 .message {
+  height: 100px;
+}
+.conbtn button {
+  padding: 14px;
+  background-color: rgb(0, 83, 139);
+  width: 150px;
+  margin-top: 10px;
+  border-radius: 20px;
+  color: white;
+  border: 0;
+}
+footer {
+  background: url(imgs/bg-cover.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  height: 15vh;
+  text-align: center;
+  padding-top: 70px;
+  line-height: 40px;
+  color: white;
+}
+.foot img {
+  width: 100px;
+}
+.foot {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+@media (max-width: 600px) {
+  nav ul {
+    font-size: 12px;
+  }
+  nav {
+    color: white;
+    display: block;
+  }
+  nav img {
+    width: 100px;
+  }
+  section {
+    background: url(imgs/cover1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: none;
+    height: 50vh;
+  }
+  header {
+    background: url(./imgs/bg-cover.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 230vh;
+  }
+  .head1 {
+    display: block;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 0;
+  }
+  .head {
+    padding-top: 20px;
+  }
+  .hedimg img {
+    width: 100%;
+  }
+  .headtxt {
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+  }
+  .headtxt p {
+    color: rgb(115, 115, 115);
+    font-size: 20px;
+  }
+  .headtxt h4 {
+    font-size: 23px;
+  }
+  .btn {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .box1 {
+    width: 80%;
+    font-size: 20px;
+  }
+  .box1 h4 {
+    font-size: 20px;
+  }
+  .cont2 {
+    width: 89%;
+    margin-bottom: 35px;
+  }
+  .cont1 {
+    width: 100%;
+  }
+  .cont2 img {
+    width: 100%;
+  }
+  .Packages {
+    height: 230vh;
+  }
+  .packageboxtxt {
+    width: 70%;
+  }
+  .packageboxtxt2 {
+    width: 280px;
+  }
+  .contact1 {
+    display: block;
+    justify-content: center;
+    gap: 400px;
+    padding-bottom: 50px;
+  }
+  aside {
+    background: none;
+  }
+  .box1 p {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+  }
+}
+@media (max-width: 1290px) {
+  .headtxt {
+    font-size: 30px;
+    section {
+      background: url(imgs/cover1.jpg) no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: none;
+      height: 50vh;
+    }
+  }
+}
+@media (max-width: 743px) {
+  .head1 {
+    display: block;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 0;
+  }
+  section {
+    background: url(imgs/cover1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: none;
+    height: 50vh;
+  }
+  .headtxt {
+    font-size: 30px;
+  }
+  .hedimg img {
+    width: 100%;
+  }
+  .headtxt {
+    color: white;
+    font-size: 50px;
+  }
+  .headtxt p {
+    color: rgb(115, 115, 115);
+    font-size: 20px;
+  }
+  .headtxt h4 {
+    font-size: 23px;
+  }
+}
+@media (max-width: 843px) {
+  section {
+    background: url(imgs/cover1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: none;
+    height: 50vh;
+  }
+  .head1 {
+    display: block;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 0;
+  }
+  .headtxt {
+    font-size: 30px;
+  }
+  .hedimg img {
+    width: 100%;
+  }
+  .headtxt {
+    color: white;
+    font-size: 50px;
+  }
+  .headtxt p {
+    color: rgb(115, 115, 115);
+    font-size: 20px;
+  }
+  .headtxt h4 {
+    font-size: 23px;
+  }
+}
